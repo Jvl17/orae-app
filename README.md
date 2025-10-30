@@ -1,47 +1,50 @@
-# ✝️ Orae — Aplicativo Católico de Oração e Comunidade
+# Welcome to your Expo app 👋
 
-**Orae** é um aplicativo católico criado para conectar pessoas em oração, inspirar através dos santos e fortalecer a vida espiritual diária.  
-Com ele, o usuário pode descobrir o santo do dia, receber frases inspiradoras, participar de comunidades, criar planos de oração e pedir intercessões.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
----
+## Get started
 
-## 📱 Funcionalidades Principais
+1. Install dependencies
 
-- 📅 **Santo do Dia** — Biografia, frases e orações do santo correspondente à data.  
-- ✨ **Frases Inspiradoras** — Um “pote” espiritual com frases de santos e padres, renovado diariamente.  
-- 🙏 **Pedidos de Oração** — Espaço para solicitar intercessão espiritual ou apoio psicológico.  
-- 🕊️ **Planos de Vida de Oração** — Rotinas espirituais baseadas na vida dos santos.  
-- 💖 **Plano Pessoal** — Criação de um diário espiritual e metas individuais.  
-- 💬 **Comunidade (Feed)** — Local para testemunhos e partilha da fé.  
-- 👤 **Perfil do Usuário** — Acesso aos planos, favoritos e histórico pessoal.  
+   ```bash
+   npm install
+   ```
 
----
+2. Start the app
 
-## 🎨 Identidade Visual
+   ```bash
+   npx expo start
+   ```
 
-**Paleta de Cores:**
-- Marrom-terra `#6B4F37` – humildade e simplicidade  
-- Dourado `#D4AF37` – santidade e presença divina  
-- Branco `#FFFFFF` – pureza e luz  
-- Azul celeste `#AEC6CF` – serenidade e fé mariana  
+In the output, you'll find options to open the app in a
 
-**Tipografia:**
-- Títulos: *Playfair Display*  
-- Corpo do texto: *Open Sans*
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
----
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## ⚙️ Tecnologias Utilizadas
+## Get a fresh project
 
-| Categoria | Tecnologia |
-|------------|-------------|
-| Front-end | React Native (Expo) |
-| Back-end | Firebase (Auth, Firestore, Storage, FCM) |
-| UI/UX | Styled Components + React Native Paper |
-| Vídeo chamadas | Jitsi Meet SDK |
-| Gerenciamento | GitHub Projects + GitHub Actions |
+When you're ready, run:
 
----
+```bash
+npm run reset-project
+```
 
-## 🧩 Estrutura do Projeto
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
