@@ -1,43 +1,52 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+# React Native + Firebase .gitignore
 
-# dependencies
+# Node
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+log.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+*.keystore
+
+# iOS
+ios/Pods/
+ios/build/
+*.xcworkspace
+*.xcuserstate
 
 # Expo
 .expo/
-dist/
-web-build/
-expo-env.d.ts
+.expo-shared/
 
-# Native
-.kotlin/
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
+# Firebase
+firebase-debug.log
+firebase-debug.*.log
 
-# Metro
-.metro-health-check*
+# IDEs
+.vscode/
+.idea/
 
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
-
-# macOS
-.DS_Store
-*.pem
-
-# local env files
-.env*.local
-
-# typescript
-*.tsbuildinfo
-
-app-example
-
-# generated native folders
-/ios
-/android
+# Misc
+coverage/
+*.tmp
+temp/
